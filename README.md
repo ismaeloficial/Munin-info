@@ -1,3 +1,5 @@
+<p align="right"><b>Español</b> · <a href="README.en.md">English</a></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="imagenes/munin-oscuro.png">
@@ -94,7 +96,9 @@ Una sola línea en la terminal lo instala todo, incluido su propio Node 24, sin 
 
 Cualquier otro agente que admita MCP puede usar sus herramientas, conectándolo a mano.
 
-Funciona en **macOS, Windows y Linux**. Si activas la sincronización, tienes la misma memoria en todos tus ordenadores. Munin y sus mensajes están en español.
+Funciona en **macOS, Windows y Linux**. Si activas la sincronización, tienes la misma memoria en todos tus ordenadores.
+
+Munin habla español e inglés: se instala en el idioma del formulario, y `munin idioma` lo cambia después.
 
 ## Privacidad
 
@@ -109,7 +113,7 @@ Funciona en **macOS, Windows y Linux**. Si activas la sincronización, tienes la
 
 Munin se instala con una invitación personal.
 
-1. Rellena el formulario con tu nombre, tu correo y tu sistema.
+1. Rellena el formulario con tu nombre, tu correo y tu sistema. Munin se instalará en el idioma del formulario.
 2. Cuando apruebe la solicitud, te llegará un correo con tu enlace, que solo sirve una vez.
 3. Abre el enlace y sigue el [manual de instalación](#manual-de-instalación): una línea en la terminal lo instala todo.
 
@@ -146,6 +150,7 @@ Los datos del formulario solo sirven para responderte. Se borran al aprobar o re
 | `munin actualizar` | Instala la última versión de Munin |
 | `munin dispositivos nuevo <nombre>` | Instala Munin en otro ordenador tuyo, sin otra invitación |
 | `munin user` | Abre tu página de Munin, con tus dispositivos |
+| `munin idioma en` | Pasa Munin al inglés; `munin idioma es` lo devuelve al español |
 | `munin desinstalar` | Desconecta Munin de tus agentes; tu memoria se queda |
 | `munin comandos` | Todos los comandos |
 
